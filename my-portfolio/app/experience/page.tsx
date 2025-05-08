@@ -21,7 +21,7 @@ const MyWebsite = () => {
     {
       date: 'Aug 2022 - Sep 2022',
       title: 'Full Stack Intern',
-      description: 'MongoDB, React TypeScript, Python, Docker, OpenAI',
+      description: 'JavaScript, Python, HTML, CSS',
     },
   ];
 

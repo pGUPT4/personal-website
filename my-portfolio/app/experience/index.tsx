@@ -26,11 +26,11 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
             {<span className="w-3 h-3 rounded-full bg-blue-500"></span>}
           </div>
           <div
-            className={`relative w-3/5 px-0 py-0 ${ // Removed background, padding, rounded, shadow
+            className={`relative w-3/5 px-0 py-0 ${
                 index % 2 === 0 ? 'text-left left-0' : 'text-right right-0'
               }`}
             style={{
-              transform: index % 2 === 0 ? 'translateX(-20%)' : 'translateX(50%)', // Adjust this value
+              transform: index % 2 === 0 ? 'translateX(-20%)' : 'translateX(50%)', 
             }}
           >
             <h3 className="text-sm font-bold text-neutral-600 dark:text-neutral-400 mb-1">
