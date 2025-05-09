@@ -1,5 +1,5 @@
 import React from 'react';
-import VerticalTimeline from '.'; // Adjust the import path
+import VerticalTimeline from '.';
 
 interface TimelineEvent {
   date: string;
@@ -15,8 +15,8 @@ const MyWebsite = () => {
       description: 'MongoDB, React TypeScript, Python, Docker, OpenAI',
     },
     {
-      date: 'March 2023 - Aug 2022',
-      title: 'Tutor',
+      date: 'March 2023 - Aug 2023',
+      title: 'Math Tutor',
     },
     {
       date: 'Aug 2022 - Sep 2022',

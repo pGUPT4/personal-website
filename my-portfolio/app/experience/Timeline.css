@@ -1,7 +1,7 @@
 .vertical-timeline {
     position: relative;
     width: 80%; /* Adjust as needed */
-    max-width: 700px; /* Optional maximum width */
+    max-width: 700px; 
     margin: 0 auto;
     padding: 1rem 0;
   }
