@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    icon: "/ParthGIcon.ico",
+    icon: "  ",
   },
 };
 
