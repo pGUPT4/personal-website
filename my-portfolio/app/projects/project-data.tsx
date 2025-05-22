@@ -13,16 +13,10 @@ export const projects: Project[] = [
     url: "https://github.com/pGUPT4/chat-application",
   },
   {
-    title: "News Application (in progress)",
+    title: "News Application",
     year: 2025,
     description: "Get personal preferences news",
     url: "https://github.com/pGUPT4/nyt-news",
-  },
-  {
-    title: "AirBNB NYC Price Prediction",
-    year: 2025,
-    description: "AI Model that predicts AirBNB prices",
-    url: "https://github.com/pGUPT4/AirBNB-NYC-Price-Prediction",
   },
   {
     title: "Credit Card Fraud Detection",
