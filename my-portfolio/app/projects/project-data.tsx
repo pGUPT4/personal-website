@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     title: "News Application",
     year: 2025,
-    description: "Get personal preferences news",
+    description: "Get real time news",
     url: "https://github.com/pGUPT4/nyt-news",
   },
   {
