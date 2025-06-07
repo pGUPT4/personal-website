@@ -12,7 +12,7 @@ const MyWebsite = () => {
     {
       date: 'Jan 2024 - May 2024',
       title: 'Full Stack Engineer Intern',
-      description: 'MongoDB, React, TypeScript, Node.js, Express.js, Docker, OpenAI',
+      description: 'MongoDB, React, TypeScript, Node.js, Express.js, Docker, OpenAI, Python',
     },
     {
       date: 'March 2023 - Aug 2023',
