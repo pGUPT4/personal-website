@@ -17,7 +17,7 @@ export default function Page() {
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I’m Parth Gupta, a Mathematics–Computer Science major at the University of California, San Diego, graduated in March 2025. My academic foundation combines rigorous problem-solving with a strong computational mindset, which I’ve applied through hands-on experience in web development, AI-driven applications, and data visualization. I'm particularly interested in full stack development, with a growing focus on building intelligent, user-centric systems at the intersection of AI, consulting, and fintech. I thrive in fast-paced environments where I can bridge technical solutions with real-world impact, and I’m driven by opportunities that challenge me to think critically and build efficiently.
+        I’m Parth Gupta, a Mathematics–Computer Science major at UC San Diego, graduated in March 2025. I’m passionate about building full stack systems that combine thoughtful design with smart engineering. With experience across consulting-inspired environments and data-informed development, I’m drawn to projects that bridge technology with real-world problem solving. I thrive in fast-paced settings where I can learn quickly, think critically, and contribute to meaningful outcomes. I’m especially excited by roles that push me to grow across software, strategy, and user-focused impact.
         </p>
       </div>
     </section>
