@@ -7,6 +7,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "AI ChatBot (In Progress)",
+    year: 2025,
+    description: "OpenAI ChatBot with stored conversations",
+    url: "https://github.com/pGUPT4/ai-chatbot",
+  },
+  {
     title: "Chat Application",
     year: 2025,
     description: "Chat with users present on the platform",
