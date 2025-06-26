@@ -1,0 +1,113 @@
+  .vertical-timeline {
+    position: relative;
+    width: 80%; /* Adjust as needed */
+    max-width: 700px; 
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  
+  .vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: #ccc; /* Color of the timeline line */
+    height: 100%;
+  }
+  
+  .timeline-event {
+    position: relative;
+    margin: 2rem 0; /* Increased margin for better spacing */
+    overflow: auto; /* Clear floats */
+  }
+  
+  .timeline-bullet {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    border: 2px solid #007bff; /* Bullet border color */
+    border-radius: 50%;
+    z-index: 1; /* Ensure bullet is above the line */
+  }
+  
+  .timeline-content {
+    width: 45%;
+    padding: 0.75rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .timeline-content.left {
+    float: left;
+    text-align: right; /* Align text to the right when on the left side */
+    transform: translateX(-15px); /* Adjust spacing from the bullet */
+  }
+  
+  .timeline-content.right {
+    float: right;
+    text-align: left; /* Align text to the left when on the right side */
+    transform: translateX(15px); /* Adjust spacing from the bullet */
+  }
+  
+  .event-date {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 0.25rem;
+  }
+  
+  .event-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .event-description {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .default-bullet {
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: 0.2rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .vertical-timeline::before {
+      left: 10px;
+    }
+  
+    .timeline-event {
+      margin-left: 30px;
+      margin-right: 0;
+    }
+  
+    .timeline-bullet {
+      left: 10px;
+    }
+  
+    .timeline-content {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      transform: translateX(0);
+    }
+  
+    .timeline-content.left,
+    .timeline-content.right {
+      float: none;
+      text-align: left;
+      margin-top: 0.5rem; /* Add some space below the bullet */
+    }
+  }
