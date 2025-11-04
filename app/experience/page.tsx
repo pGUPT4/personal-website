@@ -5,23 +5,37 @@ interface TimelineEvent {
   date: string;
   title: string;
   description?: string;
+  company?: string;
 }
 
 const MyWebsite = () => {
   const myTimelineEvents: TimelineEvent[] = [
     {
+      date: 'October 2025',
+      title: 'Full Stack Engineer Intern',
+      company: 'Toloka AI',
+    },
+    {
+      date: 'September 2025',
+      title: 'High School Teacher',
+      company: 'School Professionals',
+    },
+    {
       date: 'Jan 2024 - May 2024',
       title: 'Full Stack Engineer Intern',
       description: 'MongoDB, React, TypeScript, Node.js, Express.js, Docker, OpenAI, Python',
+      company: 'More Seconds',
     },
     {
       date: 'March 2023 - Aug 2023',
       title: 'Tutor',
+      company: 'Tutor.com'
     },
     {
       date: 'Aug 2022 - Sep 2022',
       title: 'Full Stack Intern',
       description: 'JavaScript, Python, HTML, CSS',
+      company: 'ThatNeedle.com',
     },
   ];
 

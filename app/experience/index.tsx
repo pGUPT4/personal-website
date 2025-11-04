@@ -5,6 +5,7 @@ export interface TimelineEvent {
     date: string;
     title: string;
     description?: string;
+    company?: string;
   }
 
 interface VerticalTimelineProps {
@@ -39,6 +40,11 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
             <h4 className="text-lg font-semibold text-black dark:text-white">
               {event.title}
             </h4>
+            {event.company && (
+              <h5 className="text-sm font-medium text-neutral-700 dark:text-neutral-300 italic">
+                {event.company}
+              </h5>
+            )}
             {event.description && (
               <p className="text-neutral-500 dark:text-neutral-300 mt-1">
                 {event.description}
