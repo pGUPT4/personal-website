@@ -12,7 +12,7 @@ const MyWebsite = () => {
   const myTimelineEvents: TimelineEvent[] = [
     {
       date: 'October 2025',
-      title: 'Full Stack Engineer Intern',
+      title: 'Data Annotator',
       company: 'Toloka AI',
     },
     {
@@ -23,7 +23,6 @@ const MyWebsite = () => {
     {
       date: 'Jan 2024 - May 2024',
       title: 'Full Stack Engineer Intern',
-      description: 'MongoDB, React, TypeScript, Node.js, Express.js, Docker, OpenAI, Python',
       company: 'More Seconds',
     },
     {
@@ -34,7 +33,6 @@ const MyWebsite = () => {
     {
       date: 'Aug 2022 - Sep 2022',
       title: 'Full Stack Intern',
-      description: 'JavaScript, Python, HTML, CSS',
       company: 'ThatNeedle.com',
     },
   ];

@@ -28,7 +28,7 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
             </div>
           <div
             className={`relative w-3/5 px-0 py-0 ${
-                index % 2 === 0 ? 'text-left left-0' : 'text-right right-0'
+                index % 2 === 0 ? 'text-left left-14' : 'text-right left-12'
               }`}
             style={{
               transform: index % 2 === 0 ? 'translateX(-20%)' : 'translateX(50%)', 
