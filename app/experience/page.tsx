@@ -16,6 +16,11 @@ const MyWebsite = () => {
       company: 'University of Michigan',
     },
     {
+      date: 'November 2025',
+      title: 'Data Analyst',
+      company: 'Bagelinos LLC',
+    },
+    {
       date: 'October 2025',
       title: 'Data Annotator',
       company: 'Toloka AI',
