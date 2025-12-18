@@ -6,6 +6,11 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Slave Trade",
+    description: "Peak East India Company Trade",
+    url: "https://imgur.com/a/msdFVal"
+  },
+  {
     title: "E-commerce Sales Dashboard",
     description: "Demo Data Dashboard",
     url: "https://public.tableau.com/app/profile/parth.gupta8305/viz/E-commerceSalesDashboard_17547755310490/Performancebylocation"
