@@ -2,7 +2,7 @@ import { table } from "console";
 
 export const metaData = {
   baseUrl: "https://pgupt4.com/",
-  title: "pgupt4",
+  title: "Parth Gupta",
   name: "Parth Gupta",
 };
 
