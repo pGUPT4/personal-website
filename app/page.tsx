@@ -17,13 +17,15 @@ export default function Page() {
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I’m Parth Gupta, a Mathematics–Computer Science graduate from UC San Diego now based in New York City.
+          I’m Parth Gupta, a recent Mathematics–Computer Science graduate from UC San Diego, now based in New York City.
           <br/><br/>
-          I’m driven by turning raw, messy information into clear stories that help people make better decisions—whether that’s uncovering patterns in everyday data, streamlining processes for teams, or supporting better outcomes in education and community settings. My journey has taken me through hands-on consulting-style projects, where I’ve built end-to-end solutions to analyze and deliver insights, and real-world roles in education, where I’ve focused on gathering accurate information to inform research and analysis.
+          I’m driven by turning raw, messy information into clear stories that help people make better decisions — whether uncovering patterns in everyday data, streamlining processes for teams, or supporting better outcomes in education and community settings. My journey has combined hands-on data collection and validation through field research with technical work building data pipelines, analyzing datasets, and creating visualizations.
           <br/><br/>
-          I enjoy the challenge of bridging complex details with practical impact: collecting reliable data, spotting trends, then communicate findings to business decisions. Whether it’s for business strategy, educational improvement, or creative fields, I’m excited to bring thoughtful, data-informed perspectives to collaborative teams.
+          Through my software engineering internships, I gained experience developing reliable systems, working with APIs and workflows, and turning data into interactive insights. My academic projects have further strengthened my ability to process large datasets, build models, and deliver clear, actionable findings through dashboards and analysis.
           <br/><br/>
-          I’m actively seeking my next full-time analyst role and available to start immediately. I’d love to chat about how I can contribute to your team!
+          I enjoy bridging complex details with practical impact and am excited to bring this blend of real-world data handling and technical analysis to collaborative teams — whether in business strategy, educational improvement, or other dynamic environments.
+          <br/><br/>
+          I’m actively seeking my next full-time analyst role and available to start immediately. I’d love to chat about how I can contribute to your team.
         </p>
       </div>
     </section>
