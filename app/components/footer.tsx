@@ -7,17 +7,25 @@ import {
 } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
 import { IoLogoTableau } from "react-icons/io5";
-import { metaData, socialLinks } from "app/config";
+import { metaData, socialLinks } from "../config";
 
 const YEAR = new Date().getFullYear();
 
-function SocialLink({ href, icon: Icon }) {
+function SocialLink({ href, icon: Icon }: { href: string; icon: React.ComponentType<any> }) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a href={href} target ="_blank" rel="noopener noreferrer">
       <Icon />
     </a>
   );
 }
+
+// function SocialLink({ href, icon: Icon }) {
+//   return (
+//     <a href={href} target="_blank" rel="noopener noreferrer">
+//       <Icon />
+//     </a>
+//   );
+// }
 
 function SocialLinks() {
   return (
