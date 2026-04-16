@@ -19,14 +19,6 @@ function SocialLink({ href, icon: Icon }: { href: string; icon: React.ComponentT
   );
 }
 
-// function SocialLink({ href, icon: Icon }) {
-//   return (
-//     <a href={href} target="_blank" rel="noopener noreferrer">
-//       <Icon />
-//     </a>
-//   );
-// }
-
 function SocialLinks() {
   return (
     <div className="flex text-lg gap-3.5 float-right transition-opacity duration-300 hover:opacity-90">

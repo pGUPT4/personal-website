@@ -11,6 +11,11 @@ interface TimelineEvent {
 const MyWebsite = () => {
   const myTimelineEvents: TimelineEvent[] = [
     {
+      date: 'April 2026',
+      title: 'Analyst',
+      company: 'Bank of India',
+    },
+    {
       date: 'December 2025',
       title: 'Field Researcher',
       company: 'University of Michigan',
