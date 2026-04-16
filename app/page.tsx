@@ -17,15 +17,17 @@ export default function Page() {
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I’m Parth Gupta, a recent Mathematics–Computer Science graduate from UC San Diego, now based in New York City.
+          I’m Parth Gupta, a Mathematics–Computer Science graduate from UC San Diego now based in New York City.
           <br/><br/>
-          I’m driven by turning raw, messy information into clear stories that help people make better decisions — whether uncovering patterns in everyday data, streamlining processes for teams, or supporting better outcomes in education and community settings. My journey has combined hands-on data collection and validation through field research with technical work building data pipelines, analyzing datasets, and creating visualizations.
+          I’m passionate about transforming raw, messy information into clear, actionable stories that drive better decisions. Whether it’s uncovering hidden patterns in data, building efficient pipelines, creating insightful visualizations, or turning complex analysis into something practical and impactful.
           <br/><br/>
-          Through my software engineering internships, I gained experience developing reliable systems, working with APIs and workflows, and turning data into interactive insights. My academic projects have further strengthened my ability to process large datasets, build models, and deliver clear, actionable findings through dashboards and analysis.
+          My background blends hands-on field research and data validation with technical experience in software engineering internships, where I worked on APIs, workflows, and interactive dashboards. Through academic projects and professional roles, I’ve strengthened my skills in processing large datasets, building models, and delivering clear findings that support strategy and real-world outcomes.
           <br/><br/>
-          I enjoy bridging complex details with practical impact and am excited to bring this blend of real-world data handling and technical analysis to collaborative teams — whether in business strategy, educational improvement, or other dynamic environments.
+          I’m always excited to collaborate on interesting problems — whether it’s data analysis projects, joint explorations in tech and finance, knowledge sharing, or creative applications of data skills. I enjoy connecting complex details with practical impact and am open to conversations with like-minded people.
           <br/><br/>
-          I’m actively seeking my next full-time analyst role and available to start immediately. I’d love to chat about how I can contribute to your team.
+          Feel free to reach out if you’d like to connect or explore potential collaborations!
+          <br/><br/>
+          I’d love to connect and discuss how we might work together.
         </p>
       </div>
     </section>
