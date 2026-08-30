@@ -26,7 +26,7 @@ const MyWebsite = () => {
       company: 'Toloka AI',
     },
     {
-      date: 'September 2025',
+      date: 'September 2025 - April 2026',
       title: 'High School Teacher',
       company: 'School Professionals',
     },
